@@ -42,6 +42,7 @@ header h1 {
 @media (min-width: 800px) {
   .image-container {
     width: 475px;
+    max-height: 500px;
   }
 }
 
