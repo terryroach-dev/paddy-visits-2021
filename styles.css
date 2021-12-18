@@ -7,7 +7,12 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: red;
+  text-align: center;
 }
+
+/* main {
+  max-width: 900px;
+} */
 
 .container {
   background-color: green;
@@ -15,17 +20,23 @@ body {
   padding: 1rem;
   text-align: center;
   width: 80%;
+  max-width: 900px;
+  /* height: 90%; */
   margin: 1rem auto;
+}
+
+header {
+  width: 100%;
+  padding: 0.5rem;
 }
 
 header h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 1.25rem;
 }
 
 .image-container {
   margin-top: 0.5rem;
-  width: 400px;
 }
 @media (min-width: 800px) {
   .image-container {
@@ -33,22 +44,33 @@ header h1 {
   }
 }
 
+.description {
+  color: white;
+  margin-top: 1em;
+}
+
+@media (min-width: 800px) {
+  .description {
+    font-size: 1.25rem;
+  }
+}
+
 .nav-buttons {
   display: flex;
-  width: 70%;
+  width: 85%;
   justify-content: space-around;
   margin: 2rem auto;
 }
 
 .nav-button {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   background-color: red;
   color: white;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1rem 1.25rem;
   cursor: pointer;
 }
 .nav-button:hover,
@@ -58,7 +80,7 @@ header h1 {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 footer a {
