@@ -10,9 +10,11 @@ body {
   text-align: center;
 }
 
-/* main {
-  max-width: 900px;
-} */
+@media (min-width: 800px) {
+  body {
+    max-height: 100vh;
+  }
+}
 
 .container {
   background-color: green;
@@ -21,7 +23,6 @@ body {
   text-align: center;
   width: 80%;
   max-width: 900px;
-  /* height: 90%; */
   margin: 1rem auto;
 }
 
