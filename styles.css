@@ -49,7 +49,7 @@ header h1 {
   .image-container {
     display: inline-block;
     width: 350px;
-    max-height: 500px;
+/*     max-height: 500px; */
   }
 }
 
