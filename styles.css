@@ -11,93 +11,9 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  /* background-color: red; */
   text-align: center;
 }
 
-/* @media (min-width: 800px) {
-  body {
-    max-height: 100vh;
-  }
-} */
-
-/* .container {
-  background-color: green;
-  border-radius: 1rem;
-  padding: 1rem;
-  text-align: center;
-  width: 80%;
-  max-width: 900px;
-  margin: 1rem auto;
-} */
-
-/* header {
-  width: 100%;
-  padding: 0.5rem;
-} */
-
-/* header h1 {
-  color: white;
-  font-size: 1.25rem;
-} */
-
-/* .image-container {
-  margin-top: 0.5rem;
-} */
-/* @media (min-width: 800px) {
-  .image-container {
-    display: inline-block;
-    width: 350px;
-        max-height: 500px;
-  }
-} */
-
-/* .description {
-  color: white;
-  margin-top: 1em;
-} */
-
-/* @media (min-width: 800px) {
-  .description {
-    font-size: 1.25rem;
-  }
-} */
-
-/* .nav-buttons {
-  display: flex;
-  width: 85%;
-  justify-content: space-around;
-  margin: 2rem auto;
-} */
-
-/* .nav-button {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: red;
-  color: white;
-  border: none;
-  padding: 1rem 1.25rem;
-  cursor: pointer;
-} */
-/* .nav-button:hover,
-.nav-button:focus {
-  background-color: white;
-  color: red;
-} */
-
-/* footer {
-  margin-top: 1.5rem;
-} */
-
-/* footer a {
-  color: white;
-  letter-spacing: 1.5px;
-  font-size: 1.5rem;
-} */
-
-/* TEST */
 .outer {
   background-color: red;
   height: 100vh;
@@ -106,16 +22,32 @@ body {
 
 .container {
   background-color: green;
-  width: 80%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto;
   padding: 1rem;
   border-radius: 10px;
+  height: 90vh;
+  position: relative;
 }
 
 .heading {
   color: white;
   font-size: 2.5rem;
+}
+.heading {
+  color: white;
+  font-size: 1.1rem;
+}
+@media (min-width: 500px) {
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 650px) {
+  .heading {
+    font-size: 1.75rem;
+  }
 }
 
 .image-container {
@@ -123,7 +55,13 @@ body {
 }
 
 .image {
-  width: 400px;
+  width: 200px;
+}
+
+@media (min-width: 650px) {
+  .image {
+    width: 250px;
+  }
 }
 
 .description {
@@ -131,9 +69,14 @@ body {
   color: white;
   font-size: 1.25rem;
 }
+.description {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+}
 
 .nav-buttons {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .btn {
@@ -141,6 +84,14 @@ body {
   color: white;
   background-color: red;
   font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: red;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
 }
@@ -153,10 +104,39 @@ body {
 .next-btn {
   margin-left: 1rem;
 }
+@media (min-width: 650px) {
+  .next-btn,
+  .prev-btn {
+    position: absolute;
+  }
+}
+@media (min-width: 650px) {
+  .prev-btn {
+    top: 50%;
+    left: 50px;
+  }
+}
+@media (min-width: 650px) {
+  .next-btn {
+    top: 50%;
+    right: 50px;
+  }
+}
 
 .website-link {
   display: inline-block;
   margin-top: 1.5rem;
   color: white;
   font-size: 1.5rem;
+}
+.website-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+@media (min-width: 650px) {
+  .website-link {
+    margin-top: -0.5rem;
+  }
 }

@@ -5,35 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paddy Visits 2021</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Paddy Visits 2021 - Day <span id="day"></span></h1>
-      </header>
-      <main>
-        <img
-          class="image-container"
-          src="images/day1_225.jpg"
-          alt="Paddy arrives with some goodies"
-        />
-        <p class="description">Paddy arrives with some goodies</p>
-        <div class="nav-buttons">
-          <button class="nav-button prev-btn">Prev</button>
-          <button class="nav-button next-btn">Next</button>
-        </div>
-      </main>
-      <footer>
-        <a href="test.html">test</a>
-        <a href="https://terryroach.co.uk/" target="_blank">terryroach.co.uk</a>
-      </footer>
+    <div class="outer">
+      <div class="container">
+        <header>
+          <h1 class="heading">
+            Paddy Visits 2021 - Day <span id="day"></span>
+          </h1>
+        </header>
+        <main>
+          <div class="image-container">
+            <figure>
+              <img
+                class="image"
+                src="./images/day1_250.jpg"
+                alt="Paddy arrives and brings some presents"
+              />
+              <figcaption class="description">
+                Paddy arrives and brings some presents
+              </figcaption>
+            </figure>
+          </div>
+          <div class="nav-buttons">
+            <button class="btn prev-btn">PREV</button>
+            <button class="btn next-btn">NEXT</button>
+          </div>
+        </main>
+        <footer>
+          <a
+            href="http://www.terryroach.co.uk"
+            target="_blank"
+            class="website-link"
+            >terryroach.co.uk</a
+          >
+        </footer>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
