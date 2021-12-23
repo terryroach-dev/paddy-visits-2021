@@ -45,6 +45,14 @@ imgs = [
     alt: "Paddy and Bella sitting on the shelf"},
     {src: "images/day20_250.jpg",
     alt: "Paddy and Bella getting their hot air balloon stuck in the tree"},
+    {src: "images/day21_250.jpg",
+    alt: "Paddy and Bella going down the zip wire"},
+    {src: "images/day22_250.jpg",
+    alt: "Paddy and Bella playing Hungry Hippos"},
+    {src: "images/day23_250.jpg",
+    alt: "Paddy and Bella turn Cuddles into a Mummy"},
+    {src: "images/day24_250.jpg",
+    alt: "Paddy and Bella have returned to Santa but left some treats"},
 ];
 
 let currentImg = 0;
